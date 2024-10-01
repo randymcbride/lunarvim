@@ -7,4 +7,5 @@ lvim.plugins = {
   "mfussenegger/nvim-jdtls",
 }
 vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "jdtls" })
-lvim.use_icons = false
+vim.opt.relativenumber = true
+vim.opt.number = true
